@@ -1,0 +1,18 @@
+{
+    "name": "torplem",
+    "version": "1.0.0",
+    "description": "A utility library for mathematical operations",
+    "main": "dist/main.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/main.js"
+    },
+    "keywords": [
+        "math",
+        "library",
+        "utility"
+    ],
+    "author": "Caio Victor",
+    "license": "ISC",
+    "type": "module"
+}
