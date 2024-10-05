@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torplem - Biblioteca Matemática</title>
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/TorplemTheProgramingLanguageThatYouWant.png" alt="Logo Torplem" class="logo">
+            <p>Facilitando operações matemáticas com JavaScript & TypeScript</p>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#documentacao">Documentação</a></li>
+            <li><a href="#exemplos">Exemplos Práticos</a></li>
+            <li><a href="#downloads">Downloads</a></li>
+            <li><a href="#autor">Sobre o Autor</a></li>
+        </ul>
+    </nav>
+
+    <section id="sobre" class="section">
+        <h2>O que é a <span style="color: aqua;">Torplem</span>?</h2>
+        <p>A Torplem é uma biblioteca matemática criada por <strong>Caio Victor</strong>. Seu objetivo é facilitar operações matemáticas essenciais, como soma, subtração, multiplicação etc. O nome Torplem vem de "Tor Segurança", "PL Programming Language" e "EM Essential for Math".</p>
+    </section>
+
+    <section id="documentacao" class="section">
+        <h2>Documentação</h2>
+        <div class="documentacao-content">
+            <h3>Funções Disponíveis</h3>
+            <ul>
+                <li><strong><span style="color: aquamarine;">Soma</span>(<span style="color: rgb(226, 226, 83)">a, b</span>)</strong> - Retorna a soma de dois números.</li>
+                <li><strong><span style="color: aquamarine;">Subtracao</span>(<span style="color: rgb(226, 226, 83)">a, b</span>)</strong> - Retorna a subtração de dois números.</li>
+                <li><strong><span style="color: aquamarine;">Multiplicacao</span>(<span style="color: rgb(226, 226, 83)">a, b</span>)</strong> - Retorna a multiplicação de dois números.</li>
+                <li><strong><span style="color: aquamarine;">Divisao</span>(<span style="color: rgb(226, 226, 83)">a, b</span>)</strong> - Retorna a divisão de dois números (não divide por zero).</li>
+                <li><strong><span style="color: aquamarine;">ehParouImpar</span>(<span style="color: rgb(226, 226, 83)">a</span>)</strong> - Verifica se um número é par ou ímpar.</li>
+                <li><strong><span style="color: aquamarine;">VerificarPositivoNegativoZero</span>(<span style="color: rgb(226, 226, 83)">a</span>)</strong> - Verifica se um número é positivo, negativo ou zero.</li>
+                <li><strong><span style="color: aquamarine;">Fatorial</span>(<span style="color: rgb(226, 226, 83)">n</span>)</strong> - Calcula o fatorial de um número.</li>
+                <li><strong><span style="color: aquamarine;">VerificarPrimo</span>(<span style="color: rgb(226, 226, 83)">n</span>)</strong> - Verifica se um número é primo.</li>
+                <li><strong><span style="color: aquamarine;">Potencia</span>(<span style="color: rgb(226, 226, 83)">base, expoente</span>)</strong> - Calcula a potência de um número.</li>
+                <li><strong><span style="color: aquamarine;">RaizQuadrada</span>(<span style="color: rgb(226, 226, 83)">n</span>)</strong> - Calcula a raiz quadrada de um número.</li>
+                <li><strong><span style="color: aquamarine;">Maximo</span>(<span style="color: rgb(226, 226, 83)">arr</span>)</strong> - Retorna o valor máximo em um array.</li>
+                <li><strong><span style="color: aquamarine;">Minimo</span>(<span style="color: rgb(226, 226, 83)">arr</span>)</strong> - Retorna o valor mínimo em um array.</li>
+                <li><strong><span style="color: aquamarine;">Media</span>(<span style="color: rgb(226, 226, 83)">arr</span>)</strong> - Calcula a média de um array de números.</li>
+                <li><strong><span style="color: aquamarine;">MDC</span>(<span style="color: rgb(226, 226, 83)">a, b</span>)</strong> - Calcula o máximo divisor comum de dois números.</li>
+                <li><strong><span style="color: aquamarine;">MMC</span>(<span style="color: rgb(226, 226, 83)">a, b</span>)</strong> - Calcula o mínimo múltiplo comum de dois números.</li>
+                <li><strong><span style="color: aquamarine;">GrausParaRadianos</span>(<span style="color: rgb(226, 226, 83)">angulo</span>)</strong> - Converte graus em radianos.</li>
+                <li><strong><span style="color: aquamarine;">RadianosParaGraus</span>(<span style="color: rgb(226, 226, 83)">radianos</span>)</strong> - Converte radianos em graus.</li>
+                <li><strong><span style="color: aquamarine;">VerificarNumeroPerfeito</span>(<span style="color: rgb(226, 226, 83)">n</span>)</strong> - Verifica se um número é perfeito.</li>
+                <li><strong><span style="color: aquamarine;">ConverterBase</span>(<span style="color: rgb(226, 226, 83)">num, base</span>)</strong> - Converte um número de base decimal para uma base específica</li>
+                <li><strong><span style="color: aquamarine;">GerarNumeroAleatorio</span>(<span style="color: rgb(226, 226, 83)">min, max</span>)</strong> - Gera um número aleatório entre um intervalo</li>
+                <li><strong><span style="color: aquamarine;">CalcularMediana</span>(<span style="color: rgb(226, 226, 83)">arr[]</span>)</strong> - Calcula a mediana de um array de números</li>
+                <li><strong><span style="color: aquamarine;">CalcularVariancia</span>(<span style="color: rgb(226, 226, 83)">arr[]</span>)</strong> - Calcula a variância de um array de números</li>
+                <li><strong><span style="color: aquamarine;">CalcularDesvioPadrao</span>(<span style="color: rgb(226, 226, 83)">arr[]</span>)</strong> - Calcula o desvio padrão de um array de números</li>
+                <li><strong><span style="color: aquamarine;">SomaArrays</span>(<span style="color: rgb(226, 226, 83)">arr[]</span>)</strong> - Soma todos os números em um array</li>
+                <li><strong><span style="color: aquamarine;">Fibonacci</span>(<span style="color: rgb(226, 226, 83)">n</span>)</strong> - Gera os primeiros n números de Fibonacci</li>
+                
+            </ul>
+        </div>
+    </section>
+
+    <section id="exemplos" class="section">
+        <h2>Exemplos Práticos</h2>
+        <div class="code-box">
+            <pre>
+                <code>
+// Exemplo de uso da função Soma:
+console.log(Torplem.Soma(10, 5)); // Saída: 15
+
+// Exemplo de uso da função VerificarPrimo:
+console.log(Torplem.VerificarPrimo(11)); // Saída: true
+
+// Exemplo de uso da função RaizQuadrada:
+console.log(Torplem.RaizQuadrada(16)); // Saída: 4
+
+// Exemplo de uso da função Media:
+console.log(Torplem.Media([10, 20, 30])); // Saída: 20
+                </code>
+            </pre>
+        </div>
+    </section>
+
+    <section id="downloads" class="section">
+        <h2>Downloads</h2>
+        <p>Baixe os arquivos necessários para executar a biblioteca Torplem:</p>
+        <ul>
+            <li><a href="Torplem/src/Torplem.ts" download="torplem.js">Baixar torplem.ts</a></li>
+            <li><a href="Torplem/package.json" download="package.json">Baixar package.json</a></li>
+            <li><a href="Torplem/tsconfig.json" download="tsconfig.json">Baixar tsconfig.json</a></li>
+        </ul>
+    </section>
+    
+    <section class="section">
+        <h2>Como Usar:</h2>
+        <p><strong>1- Baixe Os Arquivos Acima</strong></p>
+        <p><strong>2- Crie Um Arquivo Para Seu Código Principal, como:</strong></p>
+        <div class="code-box">
+            <pre>
+                <code>
+// O Nome Do Seu Arquivo
+main.ts
+
+// Como Irá ficar
+// Torplem
+// dist ->
+//  main.js // Seu Código Principal Compilado
+//  torplem.js // Código Da Biblioteca Compilado
+// <---
+//
+// src ->
+//  main.ts // Seu Código Principal
+//  torplem.ts // Código Da Biblioteca 
+// <---
+//
+// -> package.json // Configuração
+// -> tsconfig.json // Configuração do TypeScript
+                </code>
+            </pre>
+        </div>
+        <p><strong>3- Agora Você Está Pronto Para Se Aventurar em Torplem! Escreva Seu Código e Divirta-se!</strong></p>
+    </section>
+
+    <section id="autor" class="section">
+        <h2>Sobre o Autor</h2>
+        <p><strong>Caio Victor</strong> é o desenvolvedor por trás da Torplem, uma biblioteca focada em simplificar operações matemáticas para desenvolvedores JavaScript. Inspirado pela necessidade de ferramentas matemáticas mais eficientes, ele desenvolveu a Torplem para facilitar a vida de programadores.</p>
+    </section>
+
+    <footer>
+        <img src="images/logo2.png" alt="Logo Torplem" id="backlogo">
+        <p style="text-align: center;">&copy; 2024 Torplem - Todos os direitos reservados</p>
+    </footer>
+
+    <script>
+        // Animações de aparecimento das seções ao rolar a página
+window.addEventListener('scroll', function() {
+    const sections = document.querySelectorAll('.section');
+    sections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top;
+        const triggerPoint = window.innerHeight / 1.3;
+        
+        if (sectionTop < triggerPoint) {
+            section.classList.add('aparecer');
+        } else {
+            section.classList.remove('aparecer');
+        }
+    });
+});
+    </script>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f5;
+    color: #333;
+    line-height: 1.8;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #009688;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 40%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#backlogo {
+    max-width: 30%;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(86, 241, 239);
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #009688;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #009688;
+    border-radius: 10px;
+    list-style: none;
+}
+
+ul li {
+    padding: 10px 0;
+    font-size: 1.2em;
+}
+
+.code-box {
+    background-color: #282c34;
+    color: #61dafb;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+pre {
+    margin: 0;
+    overflow-x: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.section.aparecer {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .logo {
+        height: auto;
+        width: 100%;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
+
+    </style>
+</body>
+</html>
