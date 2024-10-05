@@ -6,7 +6,7 @@
 
 A **Torplem** é uma biblioteca matemática criada por **Caio Victor**. Seu objetivo é facilitar operações matemáticas essenciais, como soma, subtração, multiplicação, entre outras. O nome Torplem é uma combinação de "Tor Segurança", "PL Programming Language" e "EM Essential for Math".
 
-## Link Para O Site + Dowloads
+## Link Para O Site + Downloads
 - https://caito931.github.io/-Torplem/
 
 ## Documentação
@@ -39,17 +39,29 @@ A **Torplem** é uma biblioteca matemática criada por **Caio Victor**. Seu obje
 - **SomaArrays(arr)**: Soma todos os números em um array.
 - **Fibonacci(n)**: Gera os primeiros n números de Fibonacci.
 
-## Exemplos Práticos
+## Dependências
 
-```javascript
-// Exemplo de uso da função Soma:
-console.log(Torplem.Soma(10, 5)); // Saída: 15
+Para que um usuário consiga executar o seu código da biblioteca **Torplem**, é importante que ele tenha algumas dependências e configurações corretas. Aqui estão as principais dependências e requisitos:
 
-// Exemplo de uso da função VerificarPrimo:
-console.log(Torplem.VerificarPrimo(11)); // Saída: true
+1. **Node.js**:
+   - O ambiente de execução para JavaScript no servidor.
+   - Você pode baixar a versão mais recente do [site oficial do Node.js](https://nodejs.org/).
 
-// Exemplo de uso da função RaizQuadrada:
-console.log(Torplem.RaizQuadrada(16)); // Saída: 4
+2. **npm (Node Package Manager)**:
+   - Usado para gerenciar pacotes JavaScript.
+   - Verifique se o npm está instalado digitando `npm -v` no terminal.
 
-// Exemplo de uso da função Media:
-console.log(Torplem.Media([10, 20, 30])); // Saída: 20
+3. **TypeScript**:
+   - Necessário para compilar o código TypeScript.
+   - Para instalar o TypeScript:
+     ```bash
+     npm install -g typescript
+     ```
+   - Verifique a instalação com `tsc -v`.
+
+### Configuração do Projeto
+
+1. **Como Executar**:
+   ```bash
+   npm run build
+   npm start
