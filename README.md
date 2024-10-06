@@ -65,3 +65,5 @@ Para que um usuário consiga executar o seu código da biblioteca **Torplem**, �
    ```bash
    npm run build
    npm start
+
+   Lembre-se de configurar o main.ts, para import Torplem from "./Torplem.js";
