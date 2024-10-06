@@ -45,7 +45,7 @@ Para que um usuário consiga executar o seu código da biblioteca **Torplem**, �
 
 1. **Node.js**:
    - O ambiente de execução para JavaScript no servidor.
-   - Você pode baixar a versão mais recente do [site oficial do Node.js](https://nodejs.org/).
+   - Você pode baixar a versão mais recente do site oficial do Node.js
 
 2. **npm (Node Package Manager)**:
    - Usado para gerenciar pacotes JavaScript.
